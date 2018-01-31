@@ -1,5 +1,3 @@
-const justInvoke = function (cb) {
-  function cb () {
-    return this
-  }
+function justInvoke(fn) {
+  return fn()
 }
